@@ -12,6 +12,18 @@ public class Question {
 		answer="";
 	}
 	
+	
+	public toString() {
+		
+	}
+	
+	public equals() {
+			
+		
+	}
+	
+	
+	
 	public void setText(String questionText) {
 		text=questionText;
 	}

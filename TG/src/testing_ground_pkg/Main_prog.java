@@ -8,6 +8,8 @@ public class Main_prog {
 
 		
 		ChoiceQuestion first = new ChoiceQuestion();
+		
+		
 		first.setText("What was the orginal name of the Java language?");
 		first.addChoice("*7", false);
 		first.addChoice("Duke", false);
@@ -18,8 +20,14 @@ public class Main_prog {
 		second.setText("Who was the invetor of Java?");
 		second.setAnswer("James Gosling");
 		
-		first.presentQuestion();
-		second.presentQuestion();
+		//first.presentQuestion();
+		//second.presentQuestion();
+		
+		
+		
+		System.out.println(first.toString());
+		System.out.println(second.toString());
+		
 	}
 	
 
