@@ -6,10 +6,12 @@ public class ChoiceQuestion extends Question {
 
 	private ArrayList<String> choices;
 	
+	
 	public ChoiceQuestion() {
+		//super();
 		choices = new ArrayList<String>();
-		
 	}
+	
 	
 	public void addChoice(String choice, boolean correct) {
 		choices.add(choice);
@@ -19,10 +21,12 @@ public class ChoiceQuestion extends Question {
 		}
 	}
 	
+	
 	public void display() {
 		super.display();
 		for(int i=0; i < choices.size(); i++) {
 			int choiceNumber = i+1;
+			System.out.println(choiceNumber+": "+ choices.get(i));
 		}
 	}
 }
