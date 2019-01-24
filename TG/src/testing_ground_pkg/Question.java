@@ -12,17 +12,27 @@ public class Question {
 		answer="";
 	}
 	
-	
+	/*
 	public toString() {
 		
 	}
+	*/
 	
-	public equals() {
-			
+	public boolean equals(Object o_in) {
+		if (getClass() !=o_in.getClass() ) {return false;}
+		Question q_in = (Question) o_in;
+		return text.equals(q_in.text) && answer.equals(q_in.answer);
 		
 	}
 	
 	
+	
+	public String returnText() {
+		return text;
+	}
+	public String returnAnswer() {
+		return answer;
+	}
 	
 	public void setText(String questionText) {
 		text=questionText;
