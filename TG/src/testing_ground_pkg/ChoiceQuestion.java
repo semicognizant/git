@@ -29,4 +29,10 @@ public class ChoiceQuestion extends Question {
 			System.out.println(choiceNumber+": "+ choices.get(i));
 		}
 	}
+	
+	
+	public String toString() {
+		return super.toString()+"[Multiple Choice]";
+	}
+	
 }

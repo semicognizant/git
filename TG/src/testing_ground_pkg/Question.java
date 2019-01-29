@@ -12,11 +12,12 @@ public class Question {
 		answer="";
 	}
 	
-	/*
-	public toString() {
+
+	public String toString() {
+		return getClass().getName()+"[question text=" + text + "]";
 		
 	}
-	*/
+	
 	
 	public boolean equals(Object o_in) {
 		if (getClass() !=o_in.getClass() ) {return false;}

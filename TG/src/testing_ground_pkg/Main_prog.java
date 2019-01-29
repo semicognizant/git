@@ -31,6 +31,11 @@ public class Main_prog {
 		System.out.println(second.equals(first));
 		System.out.println(second.equals(sometext));
 		
+		System.out.println(second.toString());
+		System.out.println(third.toString());
+		
+		System.out.println(first.toString());
+		
 		
 		//first.presentQuestion();
 		//second.presentQuestion();
